@@ -1,0 +1,9 @@
+# Dépendances de la méthode - Era Nova (More Than A Hack 2027, Phase 1)
+#
+# Versions épinglées : ce sont celles de l'environnement sur lequel la soumission
+# `Era_Nova.csv` a été produite et vérifiée (Python 3.12.9).
+#
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.15.3        # scipy.ndimage.uniform_filter1d / binary_dilation
+matplotlib==3.11.1   # uniquement pour la figure de diagnostic du notebook
