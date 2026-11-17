@@ -1,15 +1,15 @@
-# Era Nova — Soumission « Possession de balle » (More Than A Hack 2027, Phase 1)
+# Era Nova - Soumission « Possession de balle » (More Than A Hack 2027, Phase 1)
 
 Ce dossier contient **tout ce qui est nécessaire pour reproduire la soumission** à partir du
 bundle de données fourni par les organisateurs et de notre code.
 
 | Fichier | Rôle |
 |---|---|
-| `Era_Nova.csv` | **la soumission** — CSV `frame,label`, 199 319 lignes |
-| `possession_inference.ipynb` | **le document technique** — méthode documentée, exécutable de bout en bout |
+| `Era_Nova.csv` | **la soumission** - CSV `frame,label`, 199 319 lignes |
+| `possession_inference.ipynb` | **le document technique** - méthode documentée, exécutable de bout en bout |
 | `common.py` | le module de la méthode (features, décodage, règles métier, écriture) |
 | `requirements.txt` | dépendances Python, **versions épinglées** |
-| `README.md` | ce fichier — installation, exécution, vérification |
+| `README.md` | ce fichier - installation, exécution, vérification |
 
 ---
 
@@ -19,7 +19,6 @@ bundle de données fourni par les organisateurs et de notre code.
 |---|---|
 | Métrique de classement | `spellF1` (appariement des possessions en IoU temporel) |
 | Score (fenêtre publique 5 min) | `spellF1` = **0,5889** · `macroF1` = **0,7302** |
-| Plancher à battre | `spellF1` = 0,2433 |
 | Diagnostic (match complet) | **322** possessions · durée moyenne **12,6 s** · part de `D` **35,9 %** |
 
 La méthode est **déterministe** : à entrées identiques, elle produit un fichier **byte-à-byte
