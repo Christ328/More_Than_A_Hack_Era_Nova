@@ -79,7 +79,7 @@ dans `data/tactical/`.
 
 ## 4. Reproduire la soumission
 
-### Option A — Notebook (recommandé)
+### Option A - Notebook (recommandé)
 
 ```bash
 pip install -r my_submission/requirements.txt
@@ -90,7 +90,7 @@ Puis **Run All** (exécuter toutes les cellules). La cellule §7 réécrit `my_s
 et lance le validateur officiel. La première lecture du tracking prend 1 à 2 minutes, puis un cache
 local `cache_tracking.npz` accélère les exécutions suivantes.
 
-### Option B — Ligne de commande (sans notebook)
+### Option B - Ligne de commande (sans notebook)
 
 Depuis la racine du dépôt :
 
@@ -109,7 +109,7 @@ Sortie attendue :
 ## 5. Vérifier la soumission
 
 ```bash
-python evaluation/validate_submission.py my_submission/Era_Nova.csv
+python evaluation/validate_submission.py evaluation/Era_Nova.csv .
 ```
 
 Le validateur applique **exactement** les contrôles du scoreur officiel (en-tête `frame,label`,
